@@ -1,0 +1,230 @@
+
+  *{
+    margin: 0;
+    overflow-x:hidden;
+}
+  .header{
+        background: var(--s-gradient-2, linear-gradient(229deg, #0047FF 0%, #00BCD4 100%));
+        width: 100vw;
+        height: 3vh;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+    }
+  section{
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+  }
+  .top{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 6vh;
+        width: 100vw;
+    }
+  .nav{
+        width: 60vw;
+        height: 4vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+  nav a{
+        font-family: Helvetica, sans-serif;
+        color: #848895;
+        font-size: 17px;
+        text-decoration: none;
+        margin-right: 35px;
+    }
+  .content {
+        display: flex;
+        justify-content: center;
+        margin-top: 16vh;
+    }
+  .text{
+        color:#FFF;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  .text h1{
+    font-size: 70px;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 0;
+    font-weight: 400;
+
+}
+  .text h2{
+        font-size: 68px;
+        margin-top: 0;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+
+
+    }
+  .text p{
+        font-size: 21px;
+        font-family: Helvetica, sans-serif;
+        width: 38vw;
+        font-weight: 400;
+        margin-top: 4vh;
+    }
+  #button{
+      display: flex;
+      justify-content: center;
+      margin-top: 8vh;
+  }
+  #start{
+      border-radius: 36px;
+      border: 1px solid #000;
+      background: var(--s-button, linear-gradient(152deg, #8C01FA 0%, #000 100%));
+      color: #FFF;
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      width: 11vw;
+      height: 6vh;
+      margin-right: 0.5vw;
+  }
+  #read{
+      border-radius: 36px;
+      border: 1px solid #FFF;
+      background: #000;
+      color: #FFF;
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      width: 11vw;
+      height: 6vh;
+      margin-left: 0.5vw;
+  }
+  #link_power{
+      display: flex;
+      justify-content: center;
+      text-transform: uppercase;
+  }
+  #power{
+      color: #618ADC;
+      margin-top: 11vh;
+      text-decoration: none;
+      font-family: Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+  }
+  #footer_img{
+      display: flex;
+      justify-content: center;
+      margin-top: 1vh;
+
+  }
+  .img{
+      width: 6vw;
+      margin: 6vh 0 4vw 4vw;
+      display: block;
+  }
+  #info{
+      color: #FFF;
+      width: 25vw;
+      font-size: 38px;
+      margin-top: 15vh;
+
+  }
+  #info h2{
+      width: 30vw;
+      font-family: Helvetica, sans-serif;
+      font-weight: 400;
+  }
+  main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+}
+  #all_main{
+     width: 90vw;
+     display: flex;
+     justify-content: center;
+
+ }
+  #static{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 85vh;
+    margin-left: 20vw;
+    margin-top: 10vh ;
+}
+  #static p{
+    color: #C4C4C4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 4vh;
+    margin-bottom: 9vh;
+}
+  #mid{
+      display: flex;
+      justify-content: center;
+  }
+  #section_3{
+      width: 70vw;
+      display: flex;
+      justify-content: space-between;
+  }
+  #data{
+      width: 17vw;
+  }
+  #data h6{
+      color: #FFF;
+      font-size: 38px;
+      font-family: Helvetica, sans-serif;
+      font-weight: 400;
+  }
+  #data p{
+      color: #C4C4C4;
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+      font-weight: 400;
+  }
+  #nodes{
+      width: 20vw;
+  }
+  #second{
+      width: 20vw;
+  }
+  #nodes h6{
+      color: #FFF;
+      font-family: Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 28px;
+  }
+  #nodes p{
+      color: #C4C4C4;
+      font-family: Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+  }
+  #nodes a{
+      color: #19FB9B;
+  }
+  #second h6{
+      color: #FFF;
+      font-family: Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 28px;
+  }
+  #second p{
+      color: #C4C4C4;
+      font-family: Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+  }
+
+
+
+
